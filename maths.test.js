@@ -26,3 +26,15 @@ tape("maths should have a subtract method", t => {
   t.equal(maths.subtract(10, 2), 8, "10-2 = 8");
   t.end();
 });
+
+tape("maths should have a multiply method", t => {
+  t.equal(
+    maths.hasOwnProperty("multiply"),
+    true,
+    "'multiply' key is present in object"
+  );
+  t.equal(typeof maths.multiply, "function", "maths.multiply is a function");
+  t.equal(maths.multiply(2, 2), 4, "2*2 = 4");
+  t.equal(maths.multiply(10, 2), 20, "10*2 = 20");
+  t.end();
+});
