@@ -1,0 +1,19 @@
+{
+  "name": "ci-til-i-die",
+  "version": "1.0.0",
+  "description": "Continuous Integration Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm tape index.test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-14/CI-til-I-die.git"
+  },
+  "author": "FAC14",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fac-14/CI-til-I-die/issues"
+  },
+  "homepage": "https://github.com/fac-14/CI-til-I-die#readme"
+}
