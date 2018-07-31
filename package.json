@@ -4,7 +4,7 @@
   "description": "Continuous Integration Demo",
   "main": "index.js",
   "scripts": {
-    "test": "npm tape index.test.js | tap-spec"
+    "test": "tape maths.test.js | tap-spec"
   },
   "repository": {
     "type": "git",
